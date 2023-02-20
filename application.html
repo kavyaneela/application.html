@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Job Application Form</title>
+    </head>
+
+    <body>
+        <div class="textbox">
+            <form>
+                <h1>Job Application Form</h1>
+                <p>Please Fill Out the Form Below to Submit Your Job Application!!</p>
+                <br>
+                <div class="items">
+                    <h2>PERSONAL DETAILS</h2>
+                    <div class="name">
+                        <label>Full Name</label><br><br>
+                        <input type="text" name="txtname" placeholder="FirstName">
+                        <input type="text" name="txtname" placeholder="LastName">
+                    </div>
+                    <br>
+                    <div class="Birthdate">
+                        <label>BirthDate</label><br><br>
+                        <input type="datetime-local" name="dateBirth">
+                    </div>
+                    <br>
+                    <div class="Email">
+                        <label>Email</label><br><br>
+                        <input type="email" name="email"><br>
+                        <i>myname@example.com</i>
+                    </div>
+                    <br>
+                    <div class="Phone Number">
+                        <label>Phone Number</label><br><br>
+                        <input type="number" name="numPhone"><br>
+                    </div>
+                    <br>
+                    <div clas="Address">
+                        <p>Address</p>
+                        <input type="text" name="name" placeholder="Street address">
+                        <input type="text" name="name" placeholder="Street address line 2">
+                        <div class="city">
+                            <input type="text" name="name" placeholder="City">
+                            <input type="text" name="name" placeholder="Region">
+                            <input type="text" name="name" placeholder="Postal/Zip code">
+                            <select>
+                                <option value="">Location</option>
+                                <option value="1">Chennai</option>
+                                <option value="2">Bangalore</option>
+                                <option value="3">Coimbatore</option>
+                                <option value="4">Madurai</option>
+                                <option value="5">Hyderbad</option>
+                                <option value="6">Pune</option>
+                                <option value="7">Kolkata</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <hr>
+                    <div class="Position">
+                        <label>Applied Position</label><br><br>
+                        <input type="text" name="txtname" placeholder="Applied Position">
+                    </div>
+                    <br>
+                    <div class="date">
+                        <label>Earliest Possible Start Date</label>
+                        <input type="date" name="date">
+                    </div>
+                    <br>
+                    <div class="Preferred data">
+                        <label>Preferred Interview Date</label>
+                        <input type="date" name="date">
+                    </div>
+                    <div class="Appointment Time">
+                        <label>Appointment Timing</label>
+                        <select>
+                            <option aria-valuenow="1">11.30AM</option>
+                            <option aria-valuenow="1">12.30PM</option>
+                            <option aria-valuenow="1">01.30PM</option>
+                            <option aria-valuenow="1">02.30PM</option>
+                        </select>
+                   
+                    <div class="coverletter">
+                        <h3>Cover Letter</h3>
+                        <input type="text" style="height:300px;font-size:14px;"><br>
+                        <p>Please do not exceed 200 words</p>
+                    </div>
+                    <br>
+                    <div class="Upload">
+                        <h4>Upload Resume</h4>
+                        <input type="file" name="file">
+                    </div>
+                    <br>
+                    <div class="Other Files">
+                        <label>Any Other Documents to Upload</label>
+                        <input type="file" name="file"><br>
+                        <p><i> You can Share Certification Here</i></p>
+                    </div>
+                    <br>
+                    <div class="button">
+                        <button type="submit">APPLY NOW</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
